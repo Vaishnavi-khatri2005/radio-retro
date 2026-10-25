@@ -455,14 +455,6 @@ export const RETRO_TRACKS = [
   },
   {
     "index": 56,
-    "id": "lHlk_fBCW9M",
-    "title": "Pankaj Udhas",
-    "fullTitle": "Pankaj Udhas - Chandi Jaisa Rang Hai Tera (Official Video) | चाँदी जैसा रंग है तेरा | Hindi Song",
-    "artist": "Chandi Jaisa Rang Hai Tera  • चाँदी जैसा रंग है तेरा",
-    "thumbnail": "https://i.ytimg.com/vi/lHlk_fBCW9M/hqdefault.jpg"
-  },
-  {
-    "index": 57,
     "id": "dN1O1vQju2Q",
     "title": "Kal Chaudhvin Ki Raat Thi",
     "fullTitle": "Kal Chaudhvin Ki Raat Thi with lyrics | कल चौदहवीं की रात थी | Jagjit Singh | Duniya Jise Kahte Hain",
@@ -470,7 +462,7 @@ export const RETRO_TRACKS = [
     "thumbnail": "https://i.ytimg.com/vi/dN1O1vQju2Q/hqdefault.jpg"
   },
   {
-    "index": 58,
+    "index": 57,
     "id": "azEOf5PuqNA",
     "title": "Gali Mein Chand Lyrical",
     "fullTitle": "Gali Mein Chand Lyrical | गली में चाँद | Alka Yagnik | Zakhm | Ajay Devgan | 90s Hindi Romantic Song",
@@ -478,7 +470,7 @@ export const RETRO_TRACKS = [
     "thumbnail": "https://i.ytimg.com/vi/azEOf5PuqNA/hqdefault.jpg"
   },
   {
-    "index": 59,
+    "index": 58,
     "id": "UOMjKWrfI0U",
     "title": "Yeh Tera Ghar Yeh Mera",
     "fullTitle": "Yeh Tera Ghar Yeh Mera - Deepti Naval - Farooque Sheikh - Saath Saath - Jagjit Singh - Chitra Singh",
@@ -486,7 +478,7 @@ export const RETRO_TRACKS = [
     "thumbnail": "https://i.ytimg.com/vi/UOMjKWrfI0U/hqdefault.jpg"
   },
   {
-    "index": 60,
+    "index": 59,
     "id": "-IBL3GMzvuw",
     "title": "Aaj Kal Tere Mere Pyar Ke Charche",
     "fullTitle": "Aaj Kal Tere Mere Pyar Ke Charche | Brahmachari (1968) | Shammi Kapoor | Mumtaz | Pran | Hindi Song",
@@ -494,7 +486,7 @@ export const RETRO_TRACKS = [
     "thumbnail": "https://i.ytimg.com/vi/-IBL3GMzvuw/hqdefault.jpg"
   },
   {
-    "index": 61,
+    "index": 60,
     "id": "v13cUeX6_co",
     "title": "Jhilmil Sitaron Ka Aangan Hoga",
     "fullTitle": "Jhilmil Sitaron Ka Aangan Hoga - Mohammad Rafi & Lata Mangeshkar | Dharmendra, Raakhee| Romantic Hit",
@@ -502,7 +494,7 @@ export const RETRO_TRACKS = [
     "thumbnail": "https://i.ytimg.com/vi/v13cUeX6_co/hqdefault.jpg"
   },
   {
-    "index": 62,
+    "index": 61,
     "id": "-Px0efU00uQ",
     "title": "O Mere Dil Ke Chain",
     "fullTitle": "O Mere Dil Ke Chain | Rajesh Khanna, Tanuja | Mere Jeevan Saathi (1972) | R.D Burman | Kishore Kumar",
@@ -510,7 +502,7 @@ export const RETRO_TRACKS = [
     "thumbnail": "https://i.ytimg.com/vi/-Px0efU00uQ/hqdefault.jpg"
   },
   {
-    "index": 63,
+    "index": 62,
     "id": "mZRJfQluJTM",
     "title": "Phoolon Ke Rang Se",
     "fullTitle": "Phoolon Ke Rang Se with lyrics | फूलों के रंग से के बोल | Kishore Kumar",
@@ -518,7 +510,7 @@ export const RETRO_TRACKS = [
     "thumbnail": "https://i.ytimg.com/vi/mZRJfQluJTM/hqdefault.jpg"
   },
   {
-    "index": 64,
+    "index": 63,
     "id": "vLeNeAZmZgo",
     "title": "Tune O Rangile",
     "fullTitle": "Tune O Rangile | Rajesh Khanna | Hema Malini | RD Burman Hit Songs | Kudrat | Romantic Love Songs",
@@ -526,7 +518,7 @@ export const RETRO_TRACKS = [
     "thumbnail": "https://i.ytimg.com/vi/vLeNeAZmZgo/hqdefault.jpg"
   },
   {
-    "index": 65,
+    "index": 64,
     "id": "QA2MOxhMXtU",
     "title": "Gore Rang Pe Na Itna Gumaan Kar",
     "fullTitle": "Gore Rang Pe Na Itna Gumaan Kar | Roti (1974) | Rajesh Khanna | Mumtaz | Kishore Kumar Hit Songs",
@@ -534,7 +526,7 @@ export const RETRO_TRACKS = [
     "thumbnail": "https://i.ytimg.com/vi/QA2MOxhMXtU/hqdefault.jpg"
   },
   {
-    "index": 66,
+    "index": 65,
     "id": "Kjkg9NlUpeM",
     "title": "Chhup Gaye Saare Nazaare",
     "fullTitle": "Chhup Gaye Saare Nazaare (HD) | Lata Rafi Karaoke Song | Do Raaste | Rajesh Khanna | Mumtaz",
@@ -542,7 +534,7 @@ export const RETRO_TRACKS = [
     "thumbnail": "https://i.ytimg.com/vi/Kjkg9NlUpeM/hqdefault.jpg"
   },
   {
-    "index": 67,
+    "index": 66,
     "id": "xtrEjGdlfYc",
     "title": "शायद मेरी शादी का",
     "fullTitle": "शायद मेरी शादी का | Shayad Meri Shaadi Ka | Souten | Rajesh Khanna | Kishore Kumar | #evergreensong",
@@ -550,7 +542,7 @@ export const RETRO_TRACKS = [
     "thumbnail": "https://i.ytimg.com/vi/xtrEjGdlfYc/hqdefault.jpg"
   },
   {
-    "index": 68,
+    "index": 67,
     "id": "7Zz-E_RnAMM",
     "title": "Tere Haathon Mein Pehna Ke Chudiyan",
     "fullTitle": "Tere Haathon Mein Pehna Ke Chudiyan | Asha Bhosle | Jaani Dushman Songs | Jeetendra, Neetu Singh",
@@ -558,7 +550,7 @@ export const RETRO_TRACKS = [
     "thumbnail": "https://i.ytimg.com/vi/7Zz-E_RnAMM/hqdefault.jpg"
   },
   {
-    "index": 69,
+    "index": 68,
     "id": "VNGrEbo1jS8",
     "title": "Choodi Maza Na Degi",
     "fullTitle": "Choodi Maza Na Degi",
@@ -566,7 +558,7 @@ export const RETRO_TRACKS = [
     "thumbnail": "https://i.ytimg.com/vi/VNGrEbo1jS8/hqdefault.jpg"
   },
   {
-    "index": 70,
+    "index": 69,
     "id": "lWQBsDh27PI",
     "title": "Unko Bhi Humse Mohabbat Ho Zaroori To Nahin",
     "fullTitle": "Unko Bhi Humse Mohabbat Ho Zaroori To Nahin - उनको भी हमसे मोहब्बत हो ज़रूरी तो नहीं",
@@ -574,7 +566,7 @@ export const RETRO_TRACKS = [
     "thumbnail": "https://i.ytimg.com/vi/lWQBsDh27PI/hqdefault.jpg"
   },
   {
-    "index": 71,
+    "index": 70,
     "id": "yhiEGdFmGIY",
     "title": "Sau Saal Pahle",
     "fullTitle": "Sau Saal Pahle | 60s–70s Retro Romantic Song | Old Bollywood Vibes",
