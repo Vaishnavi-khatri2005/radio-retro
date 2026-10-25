@@ -1,0 +1,71 @@
+name: Auto-Sync YouTube Playlist
+
+on:
+  schedule:
+    # Runs every 4 hours automatically
+    - cron: '0 */4 * * *'
+  # Allows manual 1-click trigger in GitHub Actions tab anytime!
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  sync-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch latest songs from YouTube Playlist
+        run: python scripts/sync_playlist.py
+
+      - name: Check for playlist changes
+        id: git-check
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet src/data/playlist.js; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No new songs added."
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "New songs found! Committing..."
+            git add src/data/playlist.js
+            git commit -m "Auto-sync: update playlist with newly added YouTube songs"
+            git push origin main
+          fi
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build site with updated tracks
+        run: npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

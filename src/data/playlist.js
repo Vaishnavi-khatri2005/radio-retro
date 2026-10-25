@@ -1,5 +1,5 @@
 // Predefined YouTube Playlist: https://www.youtube.com/playlist?list=PLOLUawFIHw8k
-// Fixed source of truth for RADIO RETRO. User cannot add or alter external playlists.
+// Auto-synchronized archive for RADIO RETRO.
 
 export const PLAYLIST_ID = 'PLOLUawFIHw8k';
 export const PLAYLIST_URL = 'https://www.youtube.com/playlist?list=PLOLUawFIHw8k';
@@ -572,5 +572,13 @@ export const RETRO_TRACKS = [
     "fullTitle": "Unko Bhi Humse Mohabbat Ho Zaroori To Nahin - उनको भी हमसे मोहब्बत हो ज़रूरी तो नहीं",
     "artist": "उनको भी हमसे मोहब्बत हो ज़रूरी तो नहीं",
     "thumbnail": "https://i.ytimg.com/vi/lWQBsDh27PI/hqdefault.jpg"
+  },
+  {
+    "index": 71,
+    "id": "yhiEGdFmGIY",
+    "title": "Sau Saal Pahle",
+    "fullTitle": "Sau Saal Pahle | 60s–70s Retro Romantic Song | Old Bollywood Vibes",
+    "artist": "60s • 70s Retro Romantic Song",
+    "thumbnail": "https://i.ytimg.com/vi/yhiEGdFmGIY/hqdefault.jpg"
   }
 ];

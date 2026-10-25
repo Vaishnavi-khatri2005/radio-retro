@@ -9,6 +9,7 @@
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "sync-playlist": "python scripts/sync_playlist.py",
     "lint": "oxlint",
     "preview": "vite preview"
   },
